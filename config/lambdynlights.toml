@@ -1,0 +1,95 @@
+# LambDynamicLights configuration.
+# The dynamic lights mode
+mode = "fancy"
+
+# Light sources settings.
+[light_sources]
+	# Enables water-sensitive light sources check. This means that water-sensitive items will not light up when submerged in water.
+	water_sensitive_check = true
+	# Enable block entities light source.
+	block_entities = true
+	# Enable entities light source.
+	entities = true
+	# Enable first-person player light source.
+	self = true
+	# TNT lighting mode. May be off, simple or fancy.
+	tnt = "off"
+	# Creeper lighting mode. May be off, simple or fancy.
+	creeper = "simple"
+
+	[light_sources.settings]
+
+		[light_sources.settings.entities]
+
+			[light_sources.settings.entities.minecraft]
+				chicken = true
+				item = true
+				turtle = true
+				wolf = true
+				salmon = true
+				zombie_villager = true
+				cow = true
+				chest_minecart = true
+				pig = true
+				slime = true
+				horse = true
+				skeleton = true
+				bat = true
+				zombie = true
+				witch = true
+				glow_squid = true
+				glow_item_frame = false
+				squid = true
+				spider = true
+				sheep = true
+				creeper = true
+				player = true
+				enderman = true
+				parrot = true
+				wandering_trader = true
+				vex = true
+				drowned = true
+				tropical_fish = true
+				axolotl = true
+				cod = true
+				pufferfish = true
+				lightning_bolt = true
+				skeleton_horse = true
+				area_effect_cloud = true
+				armor_stand = true
+				husk = true
+				donkey = true
+				dolphin = true
+				villager = true
+				rabbit = true
+				item_frame = true
+				polar_bear = true
+				fox = true
+				bee = true
+				panda = true
+				experience_orb = true
+				goat = true
+				ocelot = true
+				arrow = true
+				llama = true
+				cat = true
+				iron_golem = true
+				painting = true
+				giant = true
+				minecart = true
+				zombified_piglin = true
+				potion = true
+
+			[light_sources.settings.entities.direbats]
+				direbat = true
+
+			[light_sources.settings.entities.mutantmonsters]
+				mutant_creeper = true
+				mutant_skeleton = true
+
+			[light_sources.settings.entities.lootr]
+				lootr_minecart = true
+
+			[light_sources.settings.entities.sleep_tight]
+				bed_entity = true
+
